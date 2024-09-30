@@ -1,0 +1,24 @@
+{
+    "projectId": "66f7b1cf0009511a13e0",
+    "functions": [
+        {
+            "$id": "66f93c9c000d36a471f7",
+            "name": "fetch student data",
+            "runtime": "node-18.0",
+            "execute": [
+                "any"
+            ],
+            "events": [],
+            "scopes": [
+                "users.read"
+            ],
+            "schedule": "",
+            "timeout": 15,
+            "enabled": true,
+            "logging": true,
+            "entrypoint": "src/main.js",
+            "commands": "npm install",
+            "path": "functions/fetch student data"
+        }
+    ]
+}
